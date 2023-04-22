@@ -1,0 +1,28 @@
+תרגיל רקע מושגי יסוד בעיצוב מערכות מונחות שירותים
+נתוני עתק ומחשוב ענן - 2019
+תרגיל 1
+
+* הסתייעו בקישורים הבאים למתן תשובות:
+https://expressjs.com/
+https://docs.microsoft.com/en-us/azure/architecture/patterns/pipes-and-filters
+https://www.javaworld.com/article/2073684/follow-the-chain-of-responsibility.html
+
+א) תבניות עיצוב :
+1. מהי תבנית pipes and filters
+2. מהי תבנית chain of responsibility
+3. מהי תבנית Middleware
+מי לדעתך מתאים למימוש SoC ומי מתאים למימוש SoCC ( Separation of cross-cutting Concerns )
+
+ב) node.js & Express
+1. כתבו קוד המספק API באמצעות 3 פונקציות:
+    א.  GetBook : מקבל כפרמטר מספר סידורי ומחזיר את שם הסופר ושם הכותר.
+    ב.  GetAuthor: מקבל כפרמטר כותר ספר ומחזיר את שם הסופר ומספר סידורי.
+    ג. GetCover : מקבל כפרמטר או מספר סידורי או שם כותר ומחזיר תמונת כריכת הספר.
+
+2. הוסיפו לקוד זה פונקציית Middleware הרושמת לקונסול מה ביקשו ובאיזו שעה.
+
+* תאריך הגשה : 14.4.19 , ניתן להגיש בזוגות למייל : ariel.bigdata@gmail.com
+
+בהצלחה,
+
+יוסי
